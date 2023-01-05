@@ -201,6 +201,10 @@ header > .container {
   background-color: var(--general-font);
   padding-top: 192px;
   padding-bottom: 192px;
+  max-height: 600px;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
   background-image: linear-gradient(
       to right,
       var(--color-gradient),
@@ -208,7 +212,6 @@ header > .container {
     ),
     url(../img/people-office.jpg);
   background-size: cover;
-  max-height: 600px;
   background-repeat: no-repeat;
   background-position: center;
 }
