@@ -243,13 +243,14 @@ header > .container {
   margin-top: 48px;
   margin-right: 480px;
   margin-left: 480px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border: none;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--color-ocean);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .list {
@@ -267,6 +268,18 @@ header > .container {
 
 .work-list-element {
   width: 264px;
+}
+
+.list-icon {
+  background-color: var(--color-creamy);
+  padding: 24px 100px;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.work-icon {
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .title-element {
@@ -310,6 +323,7 @@ header > .container {
   line-height: calc(24 / 20);
   color: var(--general-font);
   margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 .title-description {
@@ -342,6 +356,7 @@ header > .container {
   background-color: var(--color-creamy);
   padding-top: 120px;
   padding-bottom: 120px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-list {
